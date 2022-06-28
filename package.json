@@ -1,0 +1,27 @@
+{
+  "name": "supportbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/transactions2014.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauNic06/SupportBank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauNic06/SupportBank/issues"
+  },
+  "homepage": "https://github.com/LauNic06/SupportBank#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}
