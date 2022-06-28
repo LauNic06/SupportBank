@@ -1,3 +1,14 @@
+const log4js = require("log4js");
+const logger = log4js.getLogger('<filename>');
+log4js.configure({
+    appenders: {
+        file: { type: 'fileSync', filename: 'logs/debug.log' }
+    },
+    categories: {
+        default: { appenders: ['file'], level: 'debug'}
+    }
+});
+
 import * as readline from 'readline';
 
 class Person {
